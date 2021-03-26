@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>Colton McEwen - Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="icon"
+            href="img/logo-short.png"
+            sizes="16x16 32x32"
+            type="image/png"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="" />
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">My Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">My Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Colton McEwen</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                Software Developer
+            </p>
+            <img
+                src="img/profile-pic.jpg"
+                alt="a picture of Colton McEwen smiling"
+                class="intro__img"
+            />
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>
+                        Attention to detail is everything, both in design and
+                        development. I consistently focus on both because good,
+                        organized code correlates with a good design that allows
+                        for future-proofing and easy maintenance.
+                    </p>
+                </div>
+                <!-- / service -->
+
+                <div class="service">
+                    <h3>Database Management</h3>
+                    <p>
+                        Data is everything, and everywhere! How to store and
+                        manage that data is critical for success and security.
+                        Those who know me are aware that I am highly organized
+                        in what I do. It avoids stress and creates a clear,
+                        focused environment, and managing data should be no
+                        different for individuals and companies.
+                    </p>
+                </div>
+                <!-- / service -->
+
+                <div class="service">
+                    <h3>Cloud Computing</h3>
+                    <p>
+                        For years I have strongly believed that cloud computing
+                        is the final frontier in technology. Almost everything
+                        we do is connected to the cloud in some way. There are
+                        so many advantages to the cloud that it enables more
+                        time spent innovating new ideas compared to maintaining
+                        existing code and server infrastructure.
+                    </p>
+                </div>
+                <!-- / service -->
+            </div>
+            <!-- / services -->
+
+            <a href="#projects" class="btn">My Projects</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">
+                Full-stack developer with a love of technology
+            </p>
+
+            <div class="about-me__body">
+                <p>
+                    I originally grew up in Northern Utah with a huge heart for
+                    technology. I did everything I could to get my hands on a
+                    computer. I practically became tech support to my
+                    grandparents! Did they pay me? Yes! Grandma's cooking.
+                </p>
+                <p>
+                    Even though I enjoyed tinkering with technology, I had
+                    bigger ambitions to take my skills further...but with no
+                    idea how to get there. So I decided to go to college to take
+                    all sorts of computer classes. Design, web, database
+                    systems, programming, you name it and I've probably tried
+                    it. Did college help me narrow down what I want to do for a
+                    career? Not really. If anything, I wanted to do all of it.
+                </p>
+                <p>
+                    Since graduating from Dixie State University in Southern
+                    Utah, I've realized that I can integrate all the skills I've
+                    learned into practically everything I do in some form or
+                    another. Every product or service needs to look good in
+                    design, connect to the web (obviously), data to store in
+                    servers, and most importantly, bringing it to life through
+                    code.
+                </p>
+                <p>To that I say, why NOT do it all?</p>
+            </div>
+
+            <img
+                src="img/grad-pic.jpg"
+                alt="Colton McEwen smiling with an ocean in the background"
+                class="about-me__img"
+            />
+        </section>
+
+        <!-- My Projects -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">My Projects</h2>
+            <p class="section__subtitle section__subtitle--projects">
+                A few things I've worked on over the years.
+            </p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-detection.html" class="portfolio__item">
+                    <h2>News Detection</h2>
+                    <img src="img/news-pic.jpg" alt="" class="portfolio__img" />
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-datagen.html" class="portfolio__item">
+                    <h2>Data Generation</h2>
+                    <img
+                        src="img/code-green.jpg"
+                        alt=""
+                        class="portfolio__img"
+                    >
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-memmatch.html" class="portfolio__item">
+                    <h2>Memory Matching</h2>
+                    <img
+                        src="img/cards-pic2.jpg"
+                        alt=""
+                        class="portfolio__img"
+                    />
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-eyedesign.html" class="portfolio__item">
+                    <h2>Eye Design</h2>
+                    <img
+                        src="img/lightbulb.jpg"
+                        alt=""
+                        class="portfolio__img"
+                    />
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:colton.mcewen@gmail.com" class="footer__link"
+                >colton.mcewen@gmail.com</a
+            >
+            <ul class="social-list-icons">
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://www.linkedin.com/in/colton-mcewen-7891b5143"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://github.com/eyepod101"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://eyepod101.wordpress.com/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-wordpress"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
