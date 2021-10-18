@@ -6,7 +6,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>News Detection</title>
+        <title>Burger Builder</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -56,9 +56,7 @@
                         >
                     </li>
                     <li class="nav__item">
-                        <a href="index.html#projects" class="nav__link"
-                            >My Projects</a
-                        >
+                        <a href="index.html#projects" class="nav__link">My Projects</a>
                     </li>
                 </ul>
             </nav>
@@ -66,68 +64,49 @@
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                News <strong>Detection</strong>
+                Burger <strong>Builder</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">
-                Senior Project
+                Web Application
             </p>
-            <img src="img/news-pic2.jpg" alt="" class="intro__img" />
+            <img src="img/burger-pic.png" alt="" class="intro__img" />
         </section>
 
         <div class="portfolio-item-individual">
             <p>
-                To be honest, I've worried about doing a senior project since I
-                started college. I often heard about amazing, creative projects
-                that students have done in the past. I wanted to make something
-                cool, but my mind always came up blank.
+                Burger Builder is a personal project that was created to challenge
+                my knowledge in JavaScript and React. It goes through a pretty
+                straightforward process of building a burger with however many
+                ingredients a person may want on it. Then the created burger may be
+                ordered with a form to enter in contact data for a "delivery driver"
+                to deliver the order.
             </p>
-            <p>
-                Leading up to the last semester of my Senior year, I finally
-                came up with an idea. What if I could develop a browser
-                extension that detected any news-based website to be real or
-                fake?
-            </p>
-            <img src="img/news-detection.jpg" alt="" />
+            <img src="img/burger-pic2.png" alt="" />
             <em>Screenshot</em>
             <p>
-                Turns out, that's exactly what I did. It's certainly not perfect
-                but it's a start. A combination of Python, Javascript, HTML,
-                CSS, and Machine Learning made this possible by taking a couple
-                of data sets each containing over 1 thousand real and fake news
-                articles to be crawled, scraped, stripped, stemmed down to the
-                bare text.
+                On top this, there is signup/signin authentication for customers to
+                keep track of all their burger orders and associated prices. The user
+                and burger order data is secured and accessed through Google Firebase.
             </p>
+
             <p>
-                Once the data was prepared, each article was organized and sent
-                to a database containing a corresponding URL, its stemmed words,
-                and a score of 1-4 ranging from False, Sketchy, Mostly True, and
-                True.
-            </p>
-            <p>
-                Next was training the data using built-in Python libraries like
-                SciKit-learn. This library used a variety of training models to
-                test with such as MLPClassifier, SVC, and LogisticRegression.
-                Typically, these models gave pretty good percentages. Well, at
-                least better than a coin toss!
-            </p>
-            <p>
-                Taking these percentages finally meant that I could put this
-                into a little browser extension window to display the final
-                score to determine whether or not it was deemed real or fake.
-            </p>
-            <p>
-                This enabled a user to go to any news-based website and wait for
-                the browser extension to collect all data from the page and
-                prepare the data mentioned earlier to run against the trained
-                models I had made to determine a score.
+                The links below will show the source code and the web application in action.
+                If for any reason the web application won't load, change the "https" to
+                "http" in the url.
             </p>
 
             <div class="align-center-button">
                 <a
                     class="btn"
-                    href="https://github.com/ColtonMcEwen/detection"
+                    href="https://github.com/ColtonMcEwen/burger-builder"
                     target="_blank"
                     >Source Code</a
+                >
+                <a
+                    class="btn"
+                    href="https://burgerbuilder.coltonmcewen.com/"
+                    target="_blank"
+                    >Web Link</a
                 >
             </div>
         </div>
