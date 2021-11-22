@@ -503,3 +503,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.portfolio-item__img {
+    border: 1px solid lightgray;
+}

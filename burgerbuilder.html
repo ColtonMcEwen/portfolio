@@ -6,7 +6,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Direct IT Consulting</title>
+        <title>Burger Builder</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -25,16 +25,16 @@
         <link rel="stylesheet" href="css/style.css" />
         <link
             rel="icon"
-            href="img/logo-short.png"
+            href="img/logo-short.jpg"
             sizes="16x16 32x32"
-            type="image/png"
+            type="image/jpg"
         />
     </head>
     <body>
         <header>
             <div class="logo">
                 <a href="index.html#projects">
-                    <img src="img/logo.png" alt="" />
+                    <img src="img/logo.jpg" alt="" />
                 </a>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
@@ -64,38 +64,47 @@
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                Direct IT <strong>Consulting</strong>
+                Burger <strong>Builder</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">
-                Company Website
+                Web Application
             </p>
-            <img src="img/directitc-pic.png" alt="" class="intro__img" />
+            <img src="img/burger-pic.jpg" alt="" class="intro__img" />
         </section>
 
         <div class="portfolio-item-individual">
             <p>
-                Direct IT Consulting is a relatively recent startup company who needed
-                a website. I took charge of creating this website from scratch based on
-                a design they made from Figma.
+                Burger Builder is a personal project that was created to challenge
+                my knowledge in JavaScript and React. It goes through a pretty
+                straightforward process of building a burger with however many
+                ingredients a person may want on it. Then the created burger may be
+                ordered with a form to enter in contact data for a "delivery driver"
+                to deliver the order.
             </p>
-            <img src="img/directitc-pic2.png" alt="" />
+            <img class="portfolio-item__img" src="img/burger-pic2.jpg" alt="" />
             <em>Screenshot</em>
             <p>
-                JavaScript and React were used to create this website through a hosted
-                service called Netlify. The site is well optimized in performance and
-                responsiveness in various screen sizes.
+                On top this, there is signup/signin authentication for customers to
+                keep track of all their burger orders and associated prices. The user
+                and burger order data is secured and accessed through Google Firebase.
+            </p>
+
+            <p>
+                The links below will show the source code and the web application in action.
+                If for any reason the web application won't load, change the "https" to
+                "http" in the url.
             </p>
 
             <div class="align-center-button">
                 <a
                     class="btn"
-                    href="https://github.com/ColtonMcEwen/directitc-website"
+                    href="https://github.com/ColtonMcEwen/burger-builder"
                     target="_blank"
                     >Source Code</a
                 >
                 <a
                     class="btn"
-                    href="https://www.directitc.com/"
+                    href="https://burgerbuilder.coltonmcewen.com/"
                     target="_blank"
                     >Web Link</a
                 >
